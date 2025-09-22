@@ -1,0 +1,62 @@
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-image: url(background.jpg.png); 
+
+
+}
+
+#myh1 {
+    font-family: "Arial", "sans-serif";
+    font-size: 2rem;
+    color: rgb(73, 18, 18);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid;
+    border-radius:50px;
+    padding: 20px;
+    background-color: rgb(103, 235, 250);
+
+}
+#display {
+    font-size: 4rem;
+    font-family:"monoscope";
+    color:rgb(49, 0, 0);
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 20px;
+
+}
+
+#control {
+    font-family:2rem; 
+    font-weight:bold;
+    border: none;
+    margin:5px;
+    min-width:125px;
+    border:none;
+    border-radius: 50px;
+}
+
+#startbtn{
+    background-color:rgb(117, 226, 117);
+}
+#startbtn:hover{
+    background-color:rgb(115, 194, 115);
+}
+#stopbtn {
+    background-color:rgb(183, 37, 37);
+}
+#stopbtn:hover {
+    background-color:rgb(140, 87, 87);
+}
+#resetbtn {
+    background-color:rgb(49, 133, 202);
+}
+#resetbtn:hover {
+    background-color:rgb(121, 167, 193);
+}
